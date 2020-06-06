@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background-color: blueviolet;
+    background-image: url(emma-dau-ZdgwIJ9d6WM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+.container{
+    width: 100%;
+    height: fit-content;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+.navbar >.left{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar > .left >.link{
+   padding-right: 20px;
+}
+.brand{
+    letter-spacing: 3px;
+    font-family: fantasy;
+    color: goldenrod;
+    transform-style: preserve-3d;
+}
+.link a{
+    text-decoration: none;
+    color:grey;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-bottom: 1px solid transparent;
+}
+.link a:hover{
+    text-decoration: none;
+    color:black;
+    font-weight: 400;
+    border-bottom: 1px solid grey;
+    transition: 1s;
+}
+.three-columns{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bgimg{
+    height: 200px;
+    width: 200px;
+    clip-path: circle();
+    background-image:url(20200206_121823.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-clip: content-box;
+}
+.about-me{
+text-align: center;
+font-family: cursive;
+color: honeydew;
+
+}
+
+h1{
+    font-size: 25px;
+    letter-spacing: 3px;
+    color:snow;
+    margin: 0;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+    animation: name 1s  forwards ;
+}
+@keyframes name{
+    0%{
+        font-size: 10px;
+        color: black;
+        letter-spacing: 1px;
+    }
+    50%{
+        font-size: 18px;
+        color: grey;
+        letter-spacing: 2px;
+    }
+    100%{
+        font-size: 25px;
+        color: white;
+        letter-spacing: 3px;
+    }
+}
+.social-media{
+    text-align: center;
+}
