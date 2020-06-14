@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: seagreen;
+    background-color: white;
     width: 100%;
     height: fit-content;
     height: auto;
@@ -111,8 +111,8 @@ form input,textarea{
 }
 
 .bgimg{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     clip-path: circle();
     background-image:url(pro-img.png) ;
     background-size: cover;
@@ -277,6 +277,7 @@ footer p{
     font-weight: 800;
     font-size: larger;
     padding: 20px 0 0 0;
+    background-color:seagreen;
 }
 .thanks{
     padding-top: 0;
