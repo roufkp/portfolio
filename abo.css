@@ -292,9 +292,9 @@ footer p{
     padding-right: 20%;
 }
 .sc{
-    width: 30px;
+    width: 35px;
     cursor: hand;
-    height: 30px;
+    height: 35px;
     border-radius: 3px;    
 }
 .sc:hover{
@@ -302,6 +302,6 @@ footer p{
 }
 .sc img{
     cursor: pointer;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 }
