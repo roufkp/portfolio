@@ -297,6 +297,9 @@ footer p{
     height: 30px;
     border-radius: 3px;    
 }
+.sc:hover{
+    box-shadow: 1px 1px black;
+}
 .sc img{
     cursor: pointer;
     width: 30px;
