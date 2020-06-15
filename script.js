@@ -26,8 +26,8 @@
                    "opacity":1,
                     "color":"black",
                     "font-family":"cursive",
-                    "background-color":"gold",
-                
+                    "background-color":"gold",  
+                    "height":"250px"              
                })
                $("#sbxs").css({"height":"250px"})
            });
@@ -35,6 +35,7 @@
                $("#ed").css({            
                    "z-index":-1,
                    "opacity":0,
+                   "height":"0px" 
                })
                $("#sbxs").css({"height":"0px"})
            });
@@ -47,7 +48,7 @@
                    "color":"white",
                     "font-family":"monospace",
                    "background-color":"black",
-                   
+                   "height":"250px"                    
                })
                 $("#sbxs").css({"height":"250px"})
            });
@@ -55,6 +56,7 @@
                $("#sk").css({            
                    "z-index":-1,
                    "opacity":0,
+                   "height":"0px" 
                })
             $("#sbxs").css({"height":"0px"})
            });
@@ -64,10 +66,10 @@
                $("#ho").css({
                    "z-index":2,
                    "opacity":1,
+                   "height":"250px" ,
                    "color":"black",
                    "font-family":"cursive",
-                   "background-color":"white",
-                   
+                   "background-color":"white",                   
                })
                $("#sbxs").css({"height":"250px"})
            });
@@ -75,11 +77,13 @@
                $("#ho").css({            
                    "z-index":-1,
                    "opacity":0,
+                   "height":"0px" 
                })
                $("#sbxs").css({"height":"0px"})
            });
-              $("#wh").click(function(){
-               alert("HOILAA!!! Message me to this no: +919061713244");
+
+           $("#wh").click(function(){
+               alert(" HOILAA!!!You can Message me to this no: +919061713244");
                
            });
            
