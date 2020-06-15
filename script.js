@@ -78,6 +78,10 @@
                })
                $("#sbxs").css({"height":"0px"})
            });
+              $("#wh").click(function(){
+               alert("HOILAA!!! Message me to this no: +919061713244");
+               
+           });
            
        });
        
