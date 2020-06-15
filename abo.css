@@ -74,14 +74,14 @@ form{
 }
 form h3{
     margin-top: 0;
-    font-size: 25px;
+    font-size: 20px;
     font-family: monospace;
 }
 form input,textarea{
     background-color: transparent;
     border: none;
     width: 70%;
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
@@ -92,6 +92,7 @@ input{
 #sm{margin-bottom: 10px;
     width: fit-content;
     height: 30px;
+    font-size:20px;
     font-family: monospace;
     border: none;
     border: 2px rosybrown;
