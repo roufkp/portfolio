@@ -82,10 +82,10 @@
                $("#sbxs").css({"height":"0px"})
            });
 
-           $("#wh").click(function(){
+          /* $("#wh").click(function(){
                alert(" HOILAA!!!You can Message me to this no: +919061713244");
                
-           });
+           });*/
            
        });
        
