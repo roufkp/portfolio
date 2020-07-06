@@ -2,8 +2,7 @@ body{
     margin: 0;
     background-color: white;
     width: 100%;
-    height: fit-content;
-    height: auto;
+    height: 100%;
     transform-style: preserve-3d;
 }
 /*main-container div>container div + hiding div*/
