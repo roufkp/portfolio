@@ -3,7 +3,6 @@ body{
     background-color: white;
     width: 100%;
     height: 100%;
-    transform-style: preserve-3d;
 }
 /*main-container div>container div + hiding div*/
 .container{
@@ -12,7 +11,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: fit-content;
+    height: 100vh;
 }
 
 /*navbar div*/
