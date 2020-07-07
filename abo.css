@@ -254,12 +254,15 @@ height: 70vh;
     font-family:'Josefin Sans', sans-serif;
     margin-bottom: 0;
 }
+#two #h5{
+    margin-top:50px;
+}
 #par{
     margin-top: 0;
     font-size: 20px;
 }
 #one{
-    height: 80vh;
+    height: 70vh;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -286,6 +289,7 @@ height: 70vh;
     font-size: 50px;
     text-transform:uppercase ;
     font-family: 'Merriweather',serif;
+    margin-top:-30px;
 }
 #three{
     color: transparent;
