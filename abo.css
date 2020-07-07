@@ -71,7 +71,7 @@ body::-webkit-scrollbar-thumb{
     display:flex;
     justify-content: center;
     width: 30px;
-    height: auto;margin-right: 5vw;
+    height: 30px;margin-right: 5vw;
     background-color: rgb(10, 19, 18);
     border-radius: 10px;
 }
@@ -194,7 +194,7 @@ a{
     border: none;
     border-radius: 15px;
     color: white;
-    height: 35px;
+    height: 40px;
 }
 .boxes{
     display: none;
