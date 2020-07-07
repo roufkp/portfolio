@@ -163,6 +163,7 @@ h1{
 .name{
     text-overflow: clip;
 text-align: center;
+    margin-top:40px;
 }
 .name #h{
     text-shadow:1px 1px forestgreen;
@@ -196,6 +197,7 @@ a{
     border-radius: 15px;
     color: white;
     height: 40px;
+    margin-top:60px;
 }
 .boxes{
     display: none;
