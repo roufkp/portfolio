@@ -232,7 +232,7 @@ a{
     background: linear-gradient(to bottom,yellow 50%,#340758 50% );
 }
 section{
-    min-height: 90vh;
+    min-height: 100vh;
     height: fit-content;
     margin: auto ;
     background-color: transparent;
