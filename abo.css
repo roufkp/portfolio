@@ -256,6 +256,7 @@ height: 70vh;
 }
 #two #h5{
     margin-top:50px;
+    font-size: 50px;
 }
 #par{
     margin-top: 0;
@@ -284,8 +285,8 @@ height: 70vh;
     font-size: 30px;
     font-family: 'Merriweather',serif;
 }
-#one #h5{
-    color: #340758;
+#one #h5,{
+    color: teal;
     font-size: 50px;
     text-transform:uppercase ;
     font-family: 'Merriweather',serif;
