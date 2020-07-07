@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="abo.css">
+    <link rel="stylesheet" href="sal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Merriweather:wght@900&family=Montserrat:wght@800&family=Open+Sans+Condensed:wght@300&family=Orbitron:wght@800&display=swap" rel="stylesheet">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
-    <script src="script.js"></script>
+    <script src="sal.js"></script>
+
 
     <title> Welcome </title>
 </head>
@@ -19,6 +22,7 @@
                    </div>                
                 </div>
                 <div class="right">
+                    <div class="colorpicker" title="click to change layout color"><img src="graphic-design.png" alt=""></div>
                     <div class="brand">
                          ROUF KP
                     </div>
@@ -26,92 +30,149 @@
             </div>
             <div class="content">
                 <div id="frm" class="contact-form">
-                    <form class="fm" id="fm" action="get" method="post" netlify>
+                    <form class="fm" id="fm" action="get" method="get" netlify>
                         <h3>Message</h3><br>
                         <input type="text" name="name" placeholder="Your Name" id="n"><br>
                         <input type="email" name="email" placeholder="Your Email" id="e"><br>
                         <textarea name="message" id="msg"  placeholder="Message" rows="4"></textarea><br>
                         <button id="sm" type="submit">Send</button>
-                    </form>
-    
+                    </form>    
                 </div>
+                <div id="bxs" class="boxes">
+                    <div class="box"><button id="rd"></button></div>                            
+                    <div class="box"><button id="wv"></button></div>
+                    <div class="box"><button id="yv"></button></div>  
+                    <div class="box"><button id="wd"></button></div>                            
+                </div>  
                 <div class="three-columns">
                     <div class="profile-photo">
                        <div class="bgimg"></div>
-                    </div>
-                    
+                    </div>                    
                     <div class="name">
                         <h1>IAM</h1>
                         <h1 id="h">MOHAMMED ABDUL ROUF KP</h1>
                     </div>
                     <div class="about-me">
-                        <div class="a-logo"><img id="i-main" src="about-logo2.svg" alt=""></div> 
-                       
-                        <div id="bxs" class="boxes">
-                            <div id="edb" class="box"><img id="i" src="e-logo1.svg" alt=""></div>
-                            
-                            <div id="skb" class="box"><img id="i" src="sk-logo1.svg" alt=""></div>
-                            <div id="hob" class="box"><img id="i" src="ho-logo1.svg" alt=""></div>
-                            
-                        </div>  
-                    </div>
-
-    
+                      <button><a href="MY_RESUME.pdf">Download Resume</a></button>
+                    </div>    
                 </div>
-                <div id="sbxs" class="scont">
-                    <div class="cont">
-                        <div id="ed" class="item">
-                            <h3> BTech (ECE)</h3>
-                            <p id="par">Government Engineering College <br> Palakkad<br></p>
-                            <strong>CGPA : 6.46</strong>
-                        </div>
-                        <div id="sk" class="item">
-                            
-                                <h2>Skills</h2><br>
-                                HTML <br> CSS <br> JS <br>
-                                C++<br>jQuery<br>
-                                Basics of Python<br>
-                                Soldering<br>
-                                Webpage Designing<br>
-                                <br>
-                            
-                            
-                        </div>
-                        <div id="ho" style="text-align: center;" class="item">
-                            <h3>Hobbies</h3><br>
-                            
-                                Football <br>
-                                <br>
-                                Reading <br>
-                                
-                            
-                        </div>
-                    </div>
+                <section id="two">
+                    <h1 id="h5">Education</h1><hr>
+                    <div class="image"
+                    data-sal="slide-right"
+                    data-sal-delay="300"
+                    data-sal-easing="ease">
+                    <div class="lcont"> <img src="e-logo1.svg" alt=""><h1 id="h4">B Tech <br> ECE</h1>   </div>
                     
-                
-                </div>
-    
-            </div>
-    
+                    <div id="ed" class="item">
+                                        
+                            <p id="par">Government Engineering College <br> Palakkad<br></p>
+                            <strong style="font-size:17px">CGPA : 6.46</strong>
+                        </div>                    
+                    </div>
+                </section>
+                <section id="one">                  
+                    
+                    <div class="image1"
+                    data-sal="slide-right"
+                    data-sal-delay="300"
+                    data-sal-easing="ease">
+                        <img src="18140.jpg" alt="sorry">      
+                    </div>
+                    <h1 id="h5" >Skills</h1>
+                </section>
+                <section id="three">
+                    <div class="image"
+                    data-sal="slide-right"
+                    data-sal-delay="300"
+                    data-sal-easing="ease">
+                        <img src="html.png" alt="">
+                        <h1 id="h4">HTML</h1>
+                        <p>2 Year</p>       
+                    </div>
+                    <div class="image"
+                    data-sal="slide-right"
+                    data-sal-delay="300"
+                    data-sal-easing="ease">
+                        <img src="css.png" alt="">
+                        <h1 id="h4">CSS</h1>
+                        <p>2 Year</p>
+                    </div>
+                    <div class="image"
+                    data-sal="slide-right"
+                    data-sal-delay="300"
+                    data-sal-easing="ease">
+                        <img src="js.png" alt="">
+                        <h1 id="h4">JavaScript</h1>                        
+                        <p>6+ Months</p>        
+                    </div>
+                    <div class="image"
+                    data-sal="slide-right"
+                    data-sal-delay="300"
+                    data-sal-easing="ease">
+                        <img src="C++.png" alt=""> 
+                        <h1 id="h4">C++</h1>
+                        <p>6+ Months</p>
+                    </div>
+                    <div class="image"
+                    data-sal="slide-right"
+                    data-sal-delay="300"
+                    data-sal-easing="ease">
+                        <img src="webdesigning.png" alt="">
+                        <h1 id="h4">webDesigning</h1>                        
+                        <p>6+ Months</p>        
+                    </div>
+                    <div class="image"
+                    data-sal="slide-right"
+                    data-sal-delay="300"
+                    data-sal-easing="ease">
+                       <img src="webpage.png" alt="">
+                       <h1 id="h4">UI/UX</h1>
+                        <p>6+ Months</p>        
+                    </div>
+                 </section>
+                 <section id="four">
+                     <h1 id="h5">Hobbies</h1>
+                     <div class="image"
+                        data-sal="slide-down"
+                        data-sal-delay="300"
+                        data-sal-easing="ease">
+                        <img src="soccer-player.svg" alt="">
+                        <h1 id="h4">Football</h1>                        
+                        <p>Not just watching  Playing too</p>        
+                    </div>
+                    <div class="image"
+                    data-sal="slide-up"
+                    data-sal-delay="300"
+                    data-sal-easing="ease">
+                        <img src="reading.svg" alt="">
+                        <h1 id="h4">Reading</h1>                        
+                        <p>Only Old stories and Novels </p>        
+                    </div>
+                 </section>
+                                  
+                   
+            </div>    
         </div>
-        
-
-
     </div>
- <footer class="ftr">
-      <p> Designed By <br> rouf kp</p>
+ <footer class="ftr">    
       <nav id="so" class="social">
         <a href="http://www.linkedin.com/in/rouf-kp-397614151"><div id="li" class="sc"><img src="li-logo1.svg" alt=""></div></a>            
         <a href="mailto:roufkpkp@gmail.com"><div id="em" class="sc"><img src="mail-logo1.svg" alt=""></div></a>
         <a href="http://www.instagram.com/rouf2126/?hl=en"><div id="in" class="sc"><img src="in-logo1.svg" alt=""></div></a>
-        <a href="https://api.whatsapp.com/send?phone=919061713244"><div id="wh" class="sc"><img src="wh-logo1.svg" alt=""></div></a>
-        
-    </nav>
-      
-
+        <a href="http://api.whatsapp.com/send?phone=919061713244"><div id="wh" class="sc"><img src="wh-logo1.svg" alt=""></div></a> 
+      </nav>
+      <p> Designed By <br> rouf kp</p>
  </footer>
-    
-
+ <script>
+     $("#m").click(function(){$("#fm").slideToggle("slow")});
+     $(".colorpicker img").click(function(){$("#bxs").fadeToggle("slow");$("#bxs").css({"display":"flex","justify-content":"space-between"})});
+    sal({once:false,threshold:0.5});
+    $("#wv").click(function(){$("body").css({"background-color":"white"});$(".image").css({"background":"linear-gradient(#400758,#142c96)"})})
+    $("#yv").click(function(){$("body").css({"background-color":"yellow"});$(".image").css({"background":"linear-gradient(#400758,#142c96)"})})
+    $("#rd").click(function(){$("body").css({"background-color":"#a80e28"});$(".image").css({"background":"linear-gradient(#1e1e26,black)"})})
+    $("#wd").click(function(){$("body").css({"background-color":"#ffffff"});$(".image").css({"background":"linear-gradient(#1e1e26,black)"})})   
+ </script>
 
 </body>
 </html>
