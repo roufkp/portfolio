@@ -246,7 +246,7 @@ section{
 }
 #two{
 color: slategrey;
-height: 70vh;
+height: 90vh;
 }
 #two .image h1{
     color:white;
@@ -256,7 +256,6 @@ height: 70vh;
 }
 #two #h5{
     margin-top:80px;
-    margin-bottom:-50px;
     font-size: 50px;
 }
 #par{
@@ -278,18 +277,16 @@ height: 70vh;
     justify-content: center;
 }
 .image1 img{
-    max-width: 300px;
+    max-width: 400px;
     width: 90%;
 }
-#h5{
-    
+#h5{ 
     font-size: 30px;
-    font-family: 'Merriweather',serif;
 }
 #one #h5{
     color: teal;
     font-size: 50px;
-    font-family: 'Merriweather',serif;
+    font-family: monospace,sans-serif;
     margin-top:0;
 }
 #three{
