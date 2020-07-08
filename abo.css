@@ -71,7 +71,7 @@ body::-webkit-scrollbar-thumb{
     display:flex;
     justify-content: center;
     width: 30px;
-    height: 30px;margin-right: 5vw;
+    height: auto;margin-right: 5vw;
     background-color: rgb(10, 19, 18);
     border-radius: 10px;
 }
@@ -124,7 +124,6 @@ input{
     font-size: 19px;
     font-family: monospace;
     border: none;
-    color:whitesmoke;
     border: 2px rosybrown;
     border-radius: 5px;
     background-color: #1e1e26;
@@ -163,14 +162,14 @@ h1{
 .name{
     text-overflow: clip;
 text-align: center;
-    margin-top:40px;
+margin-top: 30px;
 }
 .name #h{
     text-shadow:1px 1px forestgreen;
     font-size: 50px;
     letter-spacing: 2px;
     color:black;
-    margin: 0;
+    margin: auto;
     font-family: 'Monteserrat',sans-serif;
     padding-bottom: 35px;
     padding-top: 10px;
@@ -188,7 +187,7 @@ text-align: center;
 a{
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 }
 .about-me button{
     width: 200px ;
@@ -196,8 +195,8 @@ a{
     border: none;
     border-radius: 15px;
     color: white;
-    height: 40px;
-    margin-top:60px;
+    height:35px;
+    margin:60px;
 }
 .boxes{
     display: none;
@@ -234,19 +233,37 @@ a{
     background: linear-gradient(to bottom,yellow 50%,#340758 50% );
 }
 section{
-    min-height: 100vh;
+    min-height: 90vh;
     height: fit-content;
     margin: auto ;
     background-color: transparent;
     width: 100%;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     place-items: center;
     text-align: center;
     align-items: center; 
 }
+#three .image,#two .image{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 1px #1e1e26;
+    padding: auto;
+    margin: 0 auto 50px auto;
+    color: white;
+    background:linear-gradient(#1e1e26,black);
+}
 #two{
 color: slategrey;
-height: 90vh;
+height: 70vh;
+display: flex;
+flex-direction:column ;
+}
+#two .image{
+    display: grid;
+    place-items: center;
 }
 #two .image h1{
     color:white;
@@ -255,15 +272,15 @@ height: 90vh;
     margin-bottom: 0;
 }
 #two #h5{
-    margin-top:80px;
-    font-size: 50px;
+    margin-top: 20px;
+ text-transform: uppercase;
 }
 #par{
     margin-top: 0;
     font-size: 20px;
 }
 #one{
-    height: 90vh;
+    height: 70vh;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -277,17 +294,18 @@ height: 90vh;
     justify-content: center;
 }
 .image1 img{
-    max-width: 400px;
+    max-width: 500px;
     width: 90%;
+    height:auto;
 }
-#h5{ 
+#h5{
     font-size: 30px;
+    font-family: 'Merriweather',serif;
 }
 #one #h5{
-    color: teal;
     font-size: 50px;
-    font-family: monospace,sans-serif;
-    margin-top:0;
+    text-transform:uppercase ;
+    font-family: 'Josefin Sans',sans-serif;
 }
 #three{
     color: transparent;
@@ -301,15 +319,9 @@ height: 90vh;
     margin: 0 auto 50px auto;
     color: white;
 }
-#three .image,#two .image{
-    width: 300px;
-    height: 350px;
-    border-radius: 10px;
-    box-shadow: 1px 2px 2px 1px #1e1e26;
-    padding: auto;
-    margin: 0 auto 50px auto;
-    color: white;
-    background:linear-gradient(#1e1e26,black);
+#four{
+    display: flex;
+    flex-direction: column
 }
 #four .image{
     width: 350px;
@@ -320,11 +332,6 @@ height: 90vh;
     margin: 0 auto 50px auto;
     color: white;
     background:linear-gradient(#1e1e26,black);
-}
-#two .image{
-    display: grid;
-    place-items: center;
-    background: transparent;
 }
 .lcont{
     width:100px;
@@ -367,6 +374,7 @@ height: 90vh;
     height:80px;
     margin:80px auto 0 auto;
 }
+#four #h5{text-transform: uppercase;}
 #three h1,#four h1{
  font-size: 27px;
  font-weight: 800;
@@ -376,7 +384,7 @@ height: 90vh;
 .ftr{transition: all 3s linear;
     display: block;
     text-align: center;
-    background:linear-gradient(#142c96,#1e1e26);
+    background:linear-gradient(#050d2c,#1e1e26);
     width: 100%;
     height: 150px;
     color: black;
@@ -384,13 +392,13 @@ height: 90vh;
     font-family: monospace;
 }
 footer p{
-    font-weight: 600;
-    font-size: 19px;
+    font-weight: 700px;
+    font-size: 17px;
     font-family:monospace;
     padding: 20px 0 0 0;
 }
 .social{
-    width: 60%;
+    width: 50%;
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -399,9 +407,9 @@ footer p{
     padding-top: 40px;
 }
 .sc{
-    width: 30px;
+    width: 25px;
     cursor: hand;
-    height: 30px;
+    height: 25px;
     border-radius: 3px;    
 }
 .sc:hover{
@@ -409,8 +417,8 @@ footer p{
 }
 .sc img{
     cursor: pointer;
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
 }
 
 @media all and (max-width:900px){
@@ -432,13 +440,10 @@ footer p{
     }
     .image1 img{
         width:90%;
-     max-width:350px;
-        height: 350px;
+        max-width: 500px;
+        height: auto;
         display: flex;
         justify-content: center;
-    }
-    #two .image{
-        background: transparent;
     }
     #three .image,#two .image,#four .image{
         width: 300px;
@@ -449,9 +454,12 @@ footer p{
         margin: 50px auto;
         background-color: #1e1e26;
     }
-#two .image{
-        background: transparent;
-margin:0 auto;
+    #one #h5,#two #h5{
+        font-size: 40px;
+        font-family: 'Josefin Sans',sans-serif;
+    }
+    #two .image{
+        margin: 0 auto;
     }
 }
 @media all and (max-width:500px){
@@ -474,8 +482,8 @@ margin:0 auto;
          }
     .image1 img{
         width:90%;
-        max-width:400px;
-        height: 450px;
+        max-height: auto;
+        height: auto;
         display: flex;
         justify-content: center;
         margin-bottom: 0;
@@ -484,7 +492,7 @@ margin:0 auto;
         height: 60vh;
     }
     #three .image,#two .image,#four .image{
-        max-width: 400px;
+        max-width:320px;
         width: 90vw;
         height: 350px;
         border-radius: 10px;
@@ -493,9 +501,17 @@ margin:0 auto;
         margin: 50px auto;
         background-color: #1e1e26;
     }
+    #one #h5,#two #h5{
+        font-size: 30px;
+        font-family: 'Josefin Sans',sans-serif;
+    }
+    #two{
+        display: block;
+        flex-direction: column;
+    }
     #two .image{
-        background: transparent;
-margin:0 auto;
-height:450px;
+        max-width: 320px;
+        height: 450px;
+        margin: 0 auto;
     }
 }
