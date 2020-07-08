@@ -451,6 +451,10 @@ footer p{
         margin: 50px auto;
         background-color: #1e1e26;
     }
+#two .image{
+        background: transparent;
+margin:0 auto;
+    }
 }
 @media all and (max-width:500px){
     .bgimg{
@@ -465,9 +469,6 @@ footer p{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-    }
-    #two .image{
-        background: transparent;
     }
     .box button{
         width: 16px;
@@ -493,5 +494,9 @@ footer p{
         padding: 0;
         margin: 50px auto;
         background-color: #1e1e26;
+    }
+    #two .image{
+        background: transparent;
+margin:0 auto;
     }
 }
